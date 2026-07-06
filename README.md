@@ -18,10 +18,10 @@ The dashboard integrates live financial data, technical indicators, and interact
 ## 🖥️ Dashboard Preview
 
 ### Main Dashboard
-![Dashboard](images/dashboard_main.png)
+![Dashboard](assets/dashboard_main.png)
 
 ### Technical Indicators Dashboard
-![Indicators](images/dashboard_indicators.png)
+![Indicators](assets/dashboard_indicators.png)
 
 ---
 
