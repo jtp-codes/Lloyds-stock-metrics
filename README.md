@@ -1,4 +1,4 @@
-# 📊 Lloyds Bank Stock Analysis Dashboard
+# 📊 Lloyds Equity Intelligence (LEI) Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
@@ -78,7 +78,7 @@ streamlit run Lloyds_Bank_dashboard.py
 ## 📂 Repository Structure
 
 ```
-Lloyds_Bank_dashboard/
+Lloyds Equity Intelligence (LEI) Dashboard/
 │
 ├── Lloyds_Bank_dashboard.py     # Main application file
 ├── Lloyds_logo.png              # Lloyds Bank logo asset
