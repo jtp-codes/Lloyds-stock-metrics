@@ -7,7 +7,7 @@
 
 ---
 
-**Lloyds Bank Stock Analysis Dashboard** is a financial analytics project built using **Python** and **Streamlit** that provides real-time stock analysis for **LLOY.L (Lloyds Banking Group)**.
+**Lloyds Equity Intelligence (LEI) Dashboard** is a financial analytics project built using **Python** and **Streamlit** that provides real-time stock analysis for **LLOY.L (Lloyds Banking Group)**.
 
 The dashboard integrates live financial data, technical indicators, and interactive visualisations to help investors analyse stock price trends, volatility, and market momentum for smarter investment decisions.
 
