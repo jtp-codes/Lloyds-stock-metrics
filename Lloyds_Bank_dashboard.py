@@ -12,6 +12,8 @@ import os
 
 # Resolve directory containing this script to create robust relative paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# CRITICAL FIX: Match the exact filename casing inside your GitHub 'assets' folder
 LOCAL_ICON_PATH = os.path.join(BASE_DIR, "assets", "Lloyds_logo.png")
 
 # High-resolution rasterized PNG fallback to prevent Streamlit rendering errors
@@ -19,7 +21,10 @@ REMOTE_PNG_URL = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Lloyds_Ba
 
 # Safely verify and assign the web-safe page favicon asset
 if os.path.exists(LOCAL_ICON_PATH):
-    page_icon_asset = Image.open(LOCAL_ICON_PATH)
+    try:
+        page_icon_asset = Image.open(LOCAL_ICON_PATH)
+    except Exception:
+        page_icon_asset = REMOTE_PNG_URL
 else:
     page_icon_asset = REMOTE_PNG_URL
 
