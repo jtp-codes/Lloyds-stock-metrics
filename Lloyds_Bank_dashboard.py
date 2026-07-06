@@ -12,7 +12,7 @@ import os
 
 # Resolve directory containing this script to create robust relative paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOCAL_ICON_PATH = os.path.join(BASE_DIR, "assets", "lloyds_logo.png")
+LOCAL_ICON_PATH = os.path.join(BASE_DIR, "assets", "Lloyds_logo.png")
 
 # High-resolution rasterized PNG fallback to prevent Streamlit rendering errors
 REMOTE_PNG_URL = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Lloyds_Bank_logo.svg/512px-Lloyds_Bank_logo.svg.png"
