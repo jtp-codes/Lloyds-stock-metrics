@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
+## 🌐 Live Application
+🚀 **[View Live Dashboard](https://lloyds-stock-metrics-hqmma9vmtmufmrhxoovj94.streamlit.app/)**
 
 **Lloyds Equity Intelligence (LEI) Dashboard** is a financial analytics project built using **Python** and **Streamlit** that provides real-time stock analysis for **LLOY.L (Lloyds Banking Group)**.
 
